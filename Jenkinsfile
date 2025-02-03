@@ -1,9 +1,4 @@
 pipeline {
-    agent {
-        node {
-            label 'jenkins'
-        }
-    }
     stages {
         stage('clone repo') {
             steps{
