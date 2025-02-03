@@ -1,5 +1,5 @@
 node {
   withGradle {
-    bat './gradlew build'
+    bat '.\gradlew build'
   }
 }
